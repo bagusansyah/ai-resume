@@ -46,3 +46,23 @@ uploads/
 temp/
 
 .cursor
+
+# Environment variables (sensitive!)
+.env
+.env.local
+.env.production
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Editor/OS files
+.vscode/
+.cursor/
+.DS_Store
+
+# Bun
+bun.lock
