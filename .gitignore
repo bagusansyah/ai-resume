@@ -1,39 +1,48 @@
-# Logs
-logs
-*.log
+# Dependencies
+
+node_modules/
+.pnp
+.pnp.js
+
+# Production
+
+dist/
+dist-ssr/
+build/
+
+Log NPM/Yarn
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-.DS_Store
-dist
-dist-ssr
-coverage
-*.local
+# EDITOR & OS
 
-# Editor directories and files
+VS Code
+
 .vscode/*
 !.vscode/extensions.json
-.idea
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+!.vscode/settings.json
 
-*.tsbuildinfo
+# JetBrains (PyCharm, WebStorm, dll)
 
-.eslintcache
+.idea/
 
-# Cypress
-/cypress/videos/
-/cypress/screenshots/
+# Mac OS / Windows
 
-# Vitest
-__screenshots__/
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
-# Vite
-*.timestamp-*-*.mjs
+# TEMPORARY FILE / UPLOAD
+
+*.pdf
+uploads/
+temp/
+
+.cursor
