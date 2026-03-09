@@ -208,8 +208,8 @@ const analyzeCV = async () => {
   margin-bottom: 10px;
   background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%, #8b5cf6 100%);
   -webkit-background-clip: text;
+  background-clip: text; /* <-- Tambahkan ini untuk menghilangkan warning */
   -webkit-text-fill-color: transparent;
-  background-clip: text;
 }
 
 .subtitle {
@@ -348,6 +348,7 @@ const analyzeCV = async () => {
   font-weight: 800;
   background: linear-gradient(135deg, #10b981, #3b82f6);
   -webkit-background-clip: text;
+  background-clip: text; /* <-- Tambahkan ini juga di sini */
   -webkit-text-fill-color: transparent;
 }
 
